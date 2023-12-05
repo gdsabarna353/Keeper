@@ -21,7 +21,7 @@ const Header = (props) => {
   const [profileView, setProfileView] = useState(false);
 
   const handleLogout = () =>{
-    window.open("http://localhost:8000/auth/logout", "_self");
+    window.open("https://keeper-backend-p6ex.onrender.com/auth/logout", "_self");
     localStorage.removeItem("userEmail");
     localStorage.removeItem("userImage");
     localStorage.removeItem("authentication");
