@@ -22,6 +22,9 @@ const config = {
             watch: false,
         },
     },
+    resolve: {
+        extensions: ['.js', '.jsx']
+      },
     plugins: [
         // Add your plugins here
         // Learn more about plugins from https://webpack.js.org/configuration/plugins/
